@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [luuuv](https://up.htmlacademy.ru/htmlcss/14/user/24290).
-* Наставник: `Неизвестно`.
+* Наставник: [Альбина Токарчук] (https://htmlacademy.ru/profile/id167491).
 
 ---
 
