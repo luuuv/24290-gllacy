@@ -299,7 +299,6 @@ body {
 	padding: 0;
 		
 	/* только для создания разметки */
-	min-height: 213px;
 	outline: 1px solid violet;
 }
 
@@ -312,7 +311,6 @@ body {
 	margin-left: 20px;
 	
 	/* только для создания разметки */
-	min-height: 213px;
 	outline: 1px solid pink;
 }
 
@@ -329,7 +327,7 @@ body {
 	width: 49px;
 	
 	/* только для создания разметки */
-	min-height: 213px;
+	min-height: 89px;
 	outline: 1px solid violet;
 }
 
@@ -338,7 +336,7 @@ body {
 	width: 491px;
 	
 	/* только для создания разметки */
-	min-height: 213px;
+	min-height: 89px;
 	outline: 1px solid violet;
 }
 
