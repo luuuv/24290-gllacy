@@ -14,10 +14,591 @@ h1 {
 	font-family: Roboto, Arial, sans-serif;	
 }
 
-h1 {
-	font-size: 16px;
-	line-height: 22px;
+h2 {
+	font-size: 24px;
+	line-height: 30px;
 	color: #323232;
 	font-weight: 500;
 	font-family: Roboto, Arial, sans-serif;	
+}
+
+html, body {
+	min-width: 1200px;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #9db1a5;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.main-header {
+	
+	/* только для создания разметки */
+	min-height: 74px;
+	outline: 1px solid pink;
+}
+
+.catalog-header {
+	margin-bottom: 28px;
+	
+	/* только для создания разметки */
+	min-height: 74px;
+	outline: 1px solid pink;
+}
+
+.container {
+	width: 1146px;
+	padding-left: 27px;
+	padding-right: 27px;
+	margin: 0 auto;
+	
+	/* только для создания разметки */
+	outline: 1px solid white;
+}
+
+.main-logo {
+	float: left;
+	width: 149px;
+	
+	/* только для создания разметки */
+	min-height: 74px;
+	outline: 1px solid pink;
+}
+
+.index-navigation {
+	float: left;
+	width: 730px;
+	
+	/* только для создания разметки */
+	min-height: 74px;
+	outline: 1px solid pink;
+}
+
+.catalog-navigation {
+	float: left;
+	width: 730px;
+	
+	/* только для создания разметки */
+	min-height: 74px;
+	outline: 1px solid pink;
+}
+
+.index-navigation ul {
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+	
+	/* только для создания разметки */
+	min-height: 74px;
+	outline: 1px solid violet;
+}
+
+.index-navigation ul li {
+	display: inline-block;
+	font-size: 16px;
+	vertical-align: top;
+	
+	/* только для создания разметки */
+	min-height: 74px;
+	outline: 1px solid grey;
+}
+
+.catalog-navigation ul {
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+	
+	/* только для создания разметки */
+	min-height: 74px;
+	outline: 1px solid violet;
+}
+
+.catalog-navigation ul li {
+	display: inline-block;
+	font-size: 16px;
+	vertical-align: top;
+	
+	/* только для создания разметки */
+	min-height: 74px;
+	outline: 1px solid grey;
+}
+
+.user-block {
+	float: right;
+	position: relative;
+	width: 267px;
+	height: 74px;
+	font-size: 14px;
+	
+	/* только для создания разметки */
+	outline: 1px solid pink;
+}
+
+.hours-phone-block {
+	width: 166px;
+	position: absolute;
+	top: 74px;
+	right: 0;
+	
+	
+	/* только для создания разметки */
+	min-height: 39px;
+	outline: 1px solid pink;
+}
+
+.promo-slider {
+	margin-bottom: 39px;
+	
+	/* только для создания разметки */
+	min-height: 802px;
+	outline: 1px solid pink;
+}
+
+.main-slide {
+	margin-bottom: 42px;	
+	position: relative;
+
+	/* только для создания разметки */
+	min-height: 532px;
+	outline: 1px solid black;
+}
+
+.main-slide  b{
+	font-size: 60px;
+	line-height: 60.35px;
+}
+
+.sub-slides {
+	
+	
+	/* только для создания разметки */
+	min-height: 229px;
+	outline: 1px solid grey;
+}
+
+.sub-slide-1 {
+	float: left;
+	width: 560px;
+	height:229px;
+	
+	/* только для создания разметки */
+	outline: 1px solid pink;
+}
+
+.sub-slide-2 {
+	float: right;
+	width: 560px;
+	height:229px;
+	
+	/* только для создания разметки */
+	outline: 1px solid pink;
+}
+
+.slide-title {
+	margin-left: 242px;
+	margin-right: 242px;
+	width: 664px;
+	position: absolute;
+	bottom: 94px;
+	
+	
+	/* только для создания разметки */
+	min-height: 114px;
+	outline: 1px solid grey;
+}
+
+.slide-adj-block {
+	position: absolute;
+	bottom: 0;
+	height: 63px;
+	width: 1146px;
+	
+	/* только для создания разметки */
+	outline: 1px solid grey;
+}
+
+.products {
+	font-size: 0;
+	margin-bottom: 36px;
+	
+	/* только для создания разметки */
+	outline: 1px solid grey;
+}
+
+.catalog {
+	font-size: 0;
+	margin-bottom: 80px;
+	
+	/* только для создания разметки */
+	outline: 1px solid grey;
+}
+
+.product-item {
+	display: inline-block;
+	vertical-align: top;
+	width: 267px;
+	margin-right: 26px;
+	position: relative;
+	
+	/* только для создания разметки */
+	min-height: 327px;
+	outline: 1px solid pink;
+}
+
+.product-item:nth-child(4n){
+	margin-right: 0;	
+}
+
+.product-label {
+	position: absolute;
+	
+}
+
+.product-price {
+	font-size: 45px;
+}
+
+.product-name {
+	font-size: 16px;
+}
+
+.features {
+	margin-bottom: 41px;
+	
+	/* только для создания разметки */
+	min-height: 305px;
+	outline: 1px solid grey;
+}
+
+.index-title {
+	padding-top: 29px;
+	padding-bottom: 10px;
+
+	/* только для создания разметки */
+	min-height: 93px;
+	outline: 1px solid pink;
+}
+
+.feature-items {
+	
+	/* только для создания разметки */
+	min-height: 213px;
+	outline: 1px solid black;
+}
+
+.feature-items ul {
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+		
+	/* только для создания разметки */
+	min-height: 213px;
+	outline: 1px solid violet;
+}
+
+.feature-items ul li {
+	display: inline-block;
+	vertical-align: top;
+	width: 540px;
+	font-size: 16px;
+	margin-right: 20px;
+	margin-left: 20px;
+	
+	/* только для создания разметки */
+	min-height: 213px;
+	outline: 1px solid pink;
+}
+
+.feature-items ul li:nth-child(1n) {
+	margin-right: 0;
+}
+
+.feature-items ul li:nth-child(2n) {
+	margin-left: 26px;
+}
+
+.feature-item-pic {
+	float:left;
+	width: 49px;
+	
+	/* только для создания разметки */
+	min-height: 213px;
+	outline: 1px solid violet;
+}
+
+.feature-item-desc {
+	float: right;
+	width: 491px;
+	
+	/* только для создания разметки */
+	min-height: 213px;
+	outline: 1px solid violet;
+}
+
+.addition-block {
+	margin-bottom: 39px;
+	
+	/* только для создания разметки */
+	min-height: 219px;
+	outline: 1px solid grey;
+}
+
+.blog {
+	float: left;
+	width: 560px;
+	
+	/* только для создания разметки */
+	min-height: 219px;
+	outline: 1px solid pink;
+}
+
+.subscribe {
+	float: right;
+	width: 560px;
+	
+	/* только для создания разметки */
+	min-height: 219px;
+	outline: 1px solid pink;
+}
+
+.map {
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	
+	/* только для создания разметки */
+	min-height: 429px;
+	outline: 1px solid grey;
+}
+
+.map-point {
+	
+	/* указать координаты при добавлении карты */
+}
+
+.feedback {
+	width: 302px;
+	position: absolute;
+	top: 63px;
+	right: 27px;
+	
+	/* только для создания разметки */
+	min-height: 306px;
+	outline: 1px solid pink;
+}
+
+.main-footer {
+	
+	/* только для создания разметки */
+	outline: 1px solid grey;
+}
+
+.catalog-footer {
+	
+	/* только для создания разметки */
+	outline: 1px solid grey;
+}
+
+.social {
+	float: left;
+	width: 267px;
+	
+	/* только для создания разметки */
+	min-height: 104px;
+	outline: 1px solid pink;
+}
+
+.footer-nav {
+	float: left;
+	width: 586px;
+	
+	/* только для создания разметки */
+	min-height: 104px;
+	outline: 1px solid pink;
+}
+
+.footer-nav ul {
+	font-size: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.footer-nav ul li {
+	display: inline-block;
+	vertical-align: top;
+	width: 293px;
+	font-size: 13px;
+	
+	/* только для создания разметки */
+	min-height: 18px;
+	outline: 1px solid violet;
+}
+
+.htmlacademy-block {
+	float: right;
+	width: 242px;
+	
+	/* только для создания разметки */
+	min-height: 104px;
+	outline: 1px solid pink;
+}
+
+.catalog-social {
+	float: left;
+	width: 267px;
+	
+	/* только для создания разметки */
+	min-height: 107px;
+	outline: 1px solid pink;
+}
+
+.catalog-footer-nav {
+	float: left;
+	width: 586px;
+	
+	/* только для создания разметки */
+	min-height: 107px;
+	outline: 1px solid pink;
+}
+
+.catalog-footer-nav ul {
+	font-size: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.catalog-footer-nav ul li {
+	display: inline-block;
+	vertical-align: top;
+	width: 293px;
+	font-size: 13px;
+	
+	/* только для создания разметки */
+	min-height: 18px;
+	outline: 1px solid violet;
+}
+
+.catalog-htmlacademy-block {
+	float: right;
+	width: 242px;
+	
+	/* только для создания разметки */
+	min-height: 107px;
+	outline: 1px solid pink;
+}
+
+.breadcrumbs {
+	margin-bottom: 12px;
+	
+	/* только для создания разметки */
+	min-height: 13px;
+	outline: 1px solid pink;
+}
+
+.breadcrumbs ul {
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	
+	/* только для создания разметки */
+	min-height: 13px;
+	outline: 1px solid violet;
+}
+
+.breadcrumbs ul li {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+
+	/* только для создания разметки */
+	min-height: 13px;
+	outline: 1px solid violet;
+}
+
+.title {
+	margin-bottom: 28px;
+	
+	/* только для создания разметки */
+	min-height: 33px;
+	outline: 1px solid pink;
+}
+
+.filter {
+	margin-bottom: 41px;
+	
+	/* только для создания разметки */
+	min-height: 130px;
+	outline: 1px solid pink;
+}
+
+.catalog-pagination {
+	float: right;
+	width: 190px;
+	margin-bottom: 29px;
+	
+	/* только для создания разметки */
+	min-height: 28px;
+	outline: 1px solid pink;
+}
+
+.catalog-pagination ul {
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	
+	/* только для создания разметки */
+	min-height: 28px;
+	outline: 1px solid violet;
+}
+
+.catalog-pagination ul li {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 16px;
+
+	/* только для создания разметки */
+	min-height: 28px;
+	outline: 1px solid violet;
+}
+
+.filter-1 {
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	margin-bottom: 17px;
+
+	/* только для создания разметки */
+	min-height: 58px;
+	outline: 1px solid grey;
+}
+
+.filter-1 fieldset {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+
+	/* только для создания разметки */
+	min-height: 58px;
+	outline: 1px solid violet;
+}
+
+fieldset {
+	border: 0;
+	margin: 0;
+	margin-right: 15px;
+}
+
+.filter-2 {
+	
+
+	/* только для создания разметки */
+	min-height: 58px;
+	outline: 1px solid grey;
 }
