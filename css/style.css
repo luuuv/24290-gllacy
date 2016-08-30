@@ -3,7 +3,7 @@ body {
 	line-height: 22px;
 	color: #323232;
 	font-weight: normal;
-	font-family: Roboto, Arial, sans-serif;	
+	font-family: "Roboto", "Arial", sans-serif;	
 }
 
 h1 {
@@ -11,7 +11,7 @@ h1 {
 	line-height: 30px;
 	color: #323232;
 	font-weight: 500;
-	font-family: Roboto, Arial, sans-serif;	
+	font-family: "Roboto", "Arial", sans-serif;	
 }
 
 h2 {
@@ -19,7 +19,7 @@ h2 {
 	line-height: 30px;
 	color: #323232;
 	font-weight: 500;
-	font-family: Roboto, Arial, sans-serif;	
+	font-family: "Roboto", "Arial", sans-serif;	
 }
 
 html, body {
@@ -29,7 +29,8 @@ html, body {
 }
 
 body {
-	background-color: #9db1a5;
+	background-color: #849d8f;
+	min-width: 1200px;
 }
 
 .clearfix::after {
