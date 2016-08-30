@@ -1,7 +1,7 @@
 body {
 	font-size: 16px;
 	line-height: 22px;
-	color: #323232;
+	color: #ffffff;
 	font-weight: normal;
 	font-family: "Roboto", "Arial", sans-serif;	
 }
@@ -39,19 +39,8 @@ body {
 	clear: both;
 }
 
-.main-header {
-	
-	/* только для создания разметки */
-	min-height: 74px;
-	outline: 1px solid pink;
-}
-
 .catalog-header {
 	margin-bottom: 28px;
-	
-	/* только для создания разметки */
-	min-height: 74px;
-	outline: 1px solid pink;
 }
 
 .container {
@@ -59,19 +48,30 @@ body {
 	padding-left: 27px;
 	padding-right: 27px;
 	margin: 0 auto;
-	
-	/* только для создания разметки */
-	outline: 1px solid white;
 }
 
-.main-logo {
+.main-header .main-logo {
 	float: left;
 	width: 149px;
-	
-	/* только для создания разметки */
-	min-height: 74px;
-	outline: 1px solid pink;
 }
+
+.main-header .main-logo img {
+	position: relative;
+	right: 6px;
+	top: 10px;
+}
+
+.catalog-header .main-logo {
+	float: left;
+	width: 149px;
+}
+
+.catalog-header .main-logo img {
+	position: relative;
+	right: 6px;
+	top: 10px;
+}
+
 
 .index-navigation {
 	float: left;
@@ -80,6 +80,43 @@ body {
 	/* только для создания разметки */
 	min-height: 74px;
 	outline: 1px solid pink;
+}
+
+.index-navigation ul {
+	margin: 0;
+	padding: 0;
+	padding-left: 16px;
+	padding-top: 23px;
+	padding-bottom: 19px;
+	
+	list-style: none;
+	font-size: 0;
+	
+	/* только для создания разметки */
+	outline: 1px solid violet;
+}
+
+.index-navigation ul li {
+	display: inline-block;
+	
+	font-size: 16px;
+	line-height: 18px;
+	vertical-align: top;	
+}
+
+.index-navigation a {
+	display: block;
+	text-decoration: none;
+	
+	color: #ffffff;
+	font-weight: 500; 
+	padding: 7px 15px;
+	border-radius: 15px/17px;
+}
+
+.index-navigation a:hover {
+	background-color: #f7f6f3;
+	color: #333333;
 }
 
 .catalog-navigation {
@@ -91,50 +128,59 @@ body {
 	outline: 1px solid pink;
 }
 
-.index-navigation ul {
-	font-size: 0;
-	margin: 0;
-	padding: 0;
-	
-	/* только для создания разметки */
-	min-height: 74px;
-	outline: 1px solid violet;
-}
-
-.index-navigation ul li {
-	display: inline-block;
-	font-size: 16px;
-	vertical-align: top;
-	
-	/* только для создания разметки */
-	min-height: 74px;
-	outline: 1px solid grey;
-}
-
 .catalog-navigation ul {
-	font-size: 0;
 	margin: 0;
 	padding: 0;
+	padding-left: 16px;
+	padding-top: 23px;
+	padding-bottom: 19px;
 	
-	/* только для создания разметки */
-	min-height: 74px;
-	outline: 1px solid violet;
+	list-style: none;
+	font-size: 0;	
 }
 
 .catalog-navigation ul li {
 	display: inline-block;
-	font-size: 16px;
-	vertical-align: top;
 	
-	/* только для создания разметки */
-	min-height: 74px;
-	outline: 1px solid grey;
+	font-size: 16px;
+	line-height: 18px;
+	vertical-align: top;	
+}
+
+.catalog-navigation a {
+	display: block;
+
+	color: #ffffff;
+	font-weight: 500; 
+	padding: 7px 15px;
+	border-radius: 15px/17px;
+}
+
+.catalog-navigation a:hover {
+	background-color: #f7f6f3;
+	color: #333333;
+}
+
+.catalog-navigation a:active {
+	background-color: #f7f6f3;
+	color: #d07058;
+}
+
+.catalog-navigation span {
+	display: block;
+	text-decoration: none;
+	
+	color: #ffffff;
+	background-color: #d07058;
+	font-weight: 500; 
+	padding: 7px 15px;
+	border-radius: 15px/17px;
 }
 
 .user-block {
 	float: right;
 	position: relative;
-	width: 267px;
+	max-width: 267px;
 	height: 74px;
 	font-size: 14px;
 	
