@@ -132,10 +132,6 @@ body {
 .catalog-navigation {
 	float: left;
 	width: 650px;
-	
-	/* только для создания разметки */
-	min-height: 74px;
-	outline: 1px solid pink;
 }
 
 .catalog-navigation ul {
@@ -582,9 +578,6 @@ body {
 .catalog {
 	font-size: 0;
 	margin-bottom: 80px;
-	
-	/* только для создания разметки */
-	outline: 1px solid grey;
 }
 
 .product-item {
@@ -776,7 +769,6 @@ body {
 }
 
 .subscribe input[type="text"] {
-	float: left;
 	height: 44px;
 	width: 336px;
 	padding-left: 15px;
@@ -798,6 +790,21 @@ body {
 	
 	text-align: center;
 	vertical-align: middle;
+}
+
+input[type="text"] {
+	height: 44px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 3px;
+	border: 1px solid #b2b2b2;
+	
+	font-size: 16px;
+	line-height: 24px;
+}
+
+input[type="text"]:hover{
+	border-color: rgba(154, 154, 154, 0.52);
 }
 
 .subscribe-adj {
@@ -1007,55 +1014,211 @@ body {
 
 .breadcrumbs {
 	margin-bottom: 12px;
-	
-	/* только для создания разметки */
-	min-height: 13px;
-	outline: 1px solid pink;
 }
 
 .breadcrumbs ul {
 	margin: 0;
 	padding: 0;
 	font-size: 0;
-	
-	/* только для создания разметки */
-	min-height: 13px;
-	outline: 1px solid violet;
 }
 
 .breadcrumbs ul li {
 	display: inline-block;
 	vertical-align: top;
-	font-size: 14px;
+}
 
-	/* только для создания разметки */
-	min-height: 13px;
-	outline: 1px solid violet;
+.breadcrumbs ul li a, .breadcrumbs ul li span {
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 16px;
+	color: #ffffff;
+}
+
+.breadcrumbs ul li a::after {
+	content: "»";
+	font-size: 14px;
+	line-height: 16px;
+	color: #ffffff;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+
+.breadcrumbs ul li a span {
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.breadcrumbs ul li a:hover span{
+	color: #ffbc9e;
+}
+
+.breadcrumbs ul li a:active span {
+	color: #ffbc9e;
+}
+
+.breadcrumbs ul li a:hover span {
+	border-bottom: 1px solid rgba(255,188,158,0.2);
+}
+
+.breadcrumbs ul li a:active span {
+	border-bottom: 1px solid rgba(255,188,158,0.2);
 }
 
 .title {
 	margin-bottom: 28px;
+}
+
+.title h1 {
+	padding: 0;
+	margin: 0;
 	
-	/* только для создания разметки */
-	min-height: 33px;
-	outline: 1px solid pink;
+	font-size: 35px;
+	line-height: 41px;
+	color: #ffffff;
 }
 
 .filter {
 	margin-bottom: 41px;
-	
-	/* только для создания разметки */
-	min-height: 130px;
-	outline: 1px solid pink;
+}
+
+.filter fieldset {
+	margin: 0;
+	padding: 0;
+	margin-right: 16px;
+}
+
+.filter legend {
+	font-size: 14px;
+	font-weight: 500;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.filter [class$="-decor"] {
+	background-color: rgba(248, 247, 244, 0.2);
+	border-radius: 19px;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-bottom: 7px;
+	padding-top: 7px;
+}
+
+.filter .select-decor span {
+	font-size: 16px;
+	line-height: 18px;
+}
+
+.filter .select-decor span::after {
+	content: "";
+	display: inline-block;
+	width: 9px;
+	height: 5px;
+	background-image: url("../img/sprite-icons.png");
+	background-repeat: no-repeat;
+    background-position: -5px -225px;
+	margin-left: 28px;
+}
+
+.filter .range-decor .range-bar {
+	width: 188px;
+	height: 4px;
+	margin-top: 9px;
+	margin-bottom: 9px;
+	background-color: rgba(248, 247, 244, 0.5);
+}
+
+.filter .range-decor .range-bar .range-bar-selected {
+	position: relative;
+	width: 106px;
+	height: 4px;
+	background-color: rgba(248, 247, 244, 1);
+	margin-left: 23px;
+}
+
+.filter .range-decor .range-bar .range-bar-selected .range-toggle {
+	width: 20px;
+	height: 20px;
+	background-color: rgba(248, 247, 244, 1);
+	border-radius: 20px;
+}
+
+.filter .range-decor .range-bar .range-bar-selected .range-toggle:first-child {
+	position: absolute;
+	top: -8px;
+	left: -4px;
+}
+
+.filter .range-decor .range-bar .range-bar-selected .range-toggle:last-child {
+	position: absolute;
+	top: -8px;
+	right: -4px;
+}
+
+.filter .radio-decor span {
+	position: relative;
+	padding-right: 20px;
+	padding-left: 31px;
+}
+
+.filter .checkbox-decor span {
+	position: relative;
+	padding-right: 20px;
+	padding-left: 31px;
+}
+
+.filter .radio-decor span:last-child {
+	padding-right: 0;
+}
+
+.filter .checkbox-decor span:last-child {
+	padding-right: 0;
+}
+
+.filter .radio-decor span::before {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	border: 1px solid rgba(248, 247, 244, 1);
+}
+
+.filter .checkbox-decor span::before {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	background-image: url("../img/sprite-icons.png");
+    background-repeat: no-repeat;
+	background-position: -5px -260px;
+}
+
+.filter .checkbox-decor span.checkbox-selected::before {
+	background-position: -5px -235px;
+}
+
+
+.filter .radio-decor span.radio-selected::after {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	left: 4px;
+	top: 2px;
+	width: 14px;
+	height: 14px;
+	border-radius: 20px;
+	background-color: rgba(248, 247, 244, 1);
 }
 
 .catalog-pagination {
 	float: right;
-	width: 190px;
 	margin-bottom: 29px;
 	
 	/* только для создания разметки */
-	min-height: 28px;
 	outline: 1px solid pink;
 }
 
@@ -1065,39 +1228,49 @@ body {
 	font-size: 0;
 	
 	/* только для создания разметки */
-	min-height: 28px;
 	outline: 1px solid violet;
 }
 
 .catalog-pagination ul li {
 	display: inline-block;
 	vertical-align: top;
-	font-size: 16px;
 
 	/* только для создания разметки */
-	min-height: 28px;
 	outline: 1px solid violet;
 }
+
+.catalog-pagination ul li a, .catalog-pagination ul li span {
+	display: block;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	font-size: 16px;
+ 	color: #ffffff;
+}
+
+/* .catalog-pagination ul li:first-child span {
+	width: 9px;
+	background-image: url("../img/pag-left.svg");
+	background-repeat: no-repeat;
+}
+
+.catalog-pagination ul li:last-child span {
+	width: 9px;
+	background-image: url("../img/pag-right.svg");
+	background-repeat: no-repeat;
+ */}
 
 .filter-1 {
 	margin: 0;
 	padding: 0;
 	font-size: 0;
 	margin-bottom: 17px;
-
-	/* только для создания разметки */
-	min-height: 58px;
-	outline: 1px solid grey;
 }
 
 .filter-1 fieldset {
 	display: inline-block;
 	vertical-align: top;
 	font-size: 14px;
-
-	/* только для создания разметки */
-	min-height: 58px;
-	outline: 1px solid violet;
 }
 
 fieldset {
@@ -1107,9 +1280,9 @@ fieldset {
 }
 
 .filter-2 {
-	
+}
 
-	/* только для создания разметки */
-	min-height: 58px;
-	outline: 1px solid grey;
+.filter-2 fieldset {
+	display: inline-block;
+	font-size: 14px;
 }

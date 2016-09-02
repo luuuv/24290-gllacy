@@ -43,10 +43,10 @@
 		<nav class="breadcrumbs">
 			<ul>
 				<li>
-					<a href="#" title="Главная">Главная</a>
+					<a href="index.html" title="Главная"><span>Главная</span></a>
 				</li>
 				<li>
-					<a href="#" title="Каталог">Каталог</a>
+					<a href="catalog.html" title="Каталог"><span>Каталог</span></a>
 				</li>
 				<li>
 					<span>Сливочное</span>
@@ -61,33 +61,57 @@
 				<div class="filter-1">	
 					<fieldset>
 						<legend>Сортировка:</legend>
-						<select id="sort-by">
+							<div class="select-decor">
+								<span>по популярности</span>
+							</div>
+<!-- 						<select id="sort-by">
 							<option selected>По популярности</option>
 						</select>
-					</fieldset>
+ -->					</fieldset>
 					
 					<fieldset>
 						<legend>Цена: 100 руб. - 500 руб.</legend>
-						<input id="price" type="range" min="100" max="500" multiple>
-					</fieldset>
+							<div class="range-decor">
+								<div class="range-bar">
+									<div class="range-bar-selected">
+										<div class="range-toggle"></div>
+										<div class="range-toggle"></div>
+									</div>
+								</div>
+							</div>
+<!-- 						<input id="price" type="range" min="100" max="500" multiple>
+ -->					</fieldset>
 						
 					<fieldset>
 						<legend>Жирность:</legend>
-						<input type="radio" name="fat-range" id="fat-range-1" value="0"><label for="fat-range-1">0%</label>
+							<div class="radio-decor">
+								<span>0%</span>
+								<span class="radio-selected">до 10%</span>
+								<span>до 30%</span>
+								<span>выше 30%</span>
+							</div>
+<!-- 						<input type="radio" name="fat-range" id="fat-range-1" value="0"><label for="fat-range-1">0%</label>
 						<input type="radio" name="fat-range" id="fat-range-2" value="under10" checked><label for="fat-range-2">до 10%</label>
 						<input type="radio" name="fat-range" id="fat-range-3" value="under30"><label for="fat-range-3">до 30%</label>
 						<input type="radio" name="fat-range" id="fat-range-4" value="more30"><label for="fat-range-4">выше 30%</label>
-					</fieldset>
+ -->					</fieldset>
 				</div>	
 				<div class="filter-2">	
 					<fieldset>
 						<legend>Наполнители:</legend>
-						<input type="checkbox" id="fill-type-1"><label for="fill-type-1">шоколадные</label>
+							<div class="checkbox-decor">
+								<span class="checkbox-selected">шоколадные</span>
+								<span class="checkbox-selected">сахарные присыпки</span>
+								<span>фрукты</span>
+								<span>сиропы</span>
+								<span>джемы</span>
+							</div>
+<!-- 						<input type="checkbox" id="fill-type-1"><label for="fill-type-1">шоколадные</label>
 						<input type="checkbox" id="fill-type-2"><label for="fill-type-2">сахарные присыпки</label>
 						<input type="checkbox" id="fill-type-3"><label for="fill-type-3">фрукты</label>
 						<input type="checkbox" id="fill-type-4"><label for="fill-type-4">сиропы</label>
 						<input type="checkbox" id="fill-type-5"><label for="fill-type-5">джемы</label>
-						<input type="submit" value="Применить">
+ -->						<input type="submit" value="Применить">
 					</fieldset>					
 				</div>
 			</form>
@@ -231,7 +255,7 @@
 		<nav class="catalog-pagination">
 			<ul>
 				<li>
-					<span>&lt;</span>
+					<span class="unactive"></span>
 				</li>
 				<li>
 					<span>1</span>
@@ -249,7 +273,7 @@
 					<a href="#" title="Страница 5">5</a>
 				</li>
 				<li>
-					<span>&gt;</span>
+					<span class="active"><a href="#" title="Далее"></a></span>
 				</li>
 			</ul>
 		</nav>
