@@ -16,13 +16,13 @@
 			<nav class="index-navigation">
 				<ul>
 					<li>
-						<a href="catalog.html" title="Каталог">Каталог</a>
+						<a href="catalog.html" title="Каталог"><span>Каталог</span></a>
 					</li>
 					<li>
-						<a href="#" title="Доставка и оплата">Доставка и оплата</a>
+						<a href="#" title="Доставка и оплата"><span>Доставка и оплата</span></a>
 					</li>
 					<li>
-						<a href="#" title="О Компании">О Компании</a>
+						<a href="#" title="О Компании"><span>О Компании</span></a>
 					</li>
 				</ul>
 			</nav>
@@ -47,9 +47,9 @@
 				</div>
 				<div class="slide-adj-block">
 					<div class="slide-btns">
-						<button class="promo-slide-picker"></button>
-						<button class="promo-slide-picker promo-slide-picked"></button>
-						<button class="promo-slide-picker"></button>
+						<span class="promo-slide-picker promo-slide-picked"><button disabled></button></span>
+						<span class="promo-slide-picker"><button></button></span>
+						<span class="promo-slide-picker"><button></button></span>
 					</div>
 					<a href="#" class="btn-main" title="Давайте оба!">Давайте оба!</a>
 				</div>
@@ -164,58 +164,58 @@
 		<div class="addition-block clearfix">
 			<div class="blog">
 				<p>Новое в нашем блоге</p>
-				<a href="#" title="10 способов сервировки фруктовых щербетов к столу">10 способов сервировки фруктовых щербетов к столу</a>
+				<a href="#" title="10 способов сервировки фруктовых щербетов к столу">10 способов сервировки <br>фруктовых щербетов <br>к столу</a>
 			</div>
 				
 			<div class="subscribe">
-				<p>Подпишитесь на сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
-				<form>
-					<input type="text" id="email" name="email" placeholder="Электронная почта"><input type="submit" class="btn" value="Отправить">
-				</form>
+				<div class="subscribe-border">
+					<p>Подпишитесь на сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
+					<div class="subscribe-adj clearfix"><form>
+						<input type="text" id="email" name="email" placeholder="Электронная почта"><input class="btn-sub" type="submit" class="btn" value="Отправить">
+					</form></div>
+				</div>
 			</div>
 		</div>
 	</main>
 	<div class="map">
 		<img class="map-point" src="img/map-pin.png" alt="Наш магазин здесь" title="Наш магазин здесь" width="218" height="142">
 		<div class="feedback">
-			<div class="feedback-desc">
-				<b>Адрес главного офиса и офлайн магазина:</b>
-				<span>ул. Большая Конюшенная 19/8, Санкт-Петербург</span>
-				<b>Для заказов по телефону:</b>
-				<a href="tel:88124502525">8 812 450-25-25</a>
-				<b>(с 10 до 20 ежедневно)</b>
-				<a href="#" title="Форма обратной связи">Форма обратной связи</a>
-			</div>
+			<span>Адрес главного офиса и офлайн магазина:</span>
+			<b>ул. Большая Конюшенная 19/8, Санкт-Петербург</b>
+			<span>Для заказов по телефону:</span>
+			<a href="tel:88124502525" class="phone">8 812 450-25-25</a>
+			<span>(с 10 до 20 ежедневно)</span>
+			<a href="#" class="btn-sub" title="Форма обратной связи">Форма обратной связи</a>
 		</div>
 	</div>
 	
-	<footer class="main-footer">
-		<div class="container">
+	<footer class="main-footer clearfix">
+		<div class="container clearfix">
 			<div class="social">
-				<a href="#" title="Gllacy - Twitter"><img src="img/tw.svg" alt="Gllacy - Twitter" title="Gllacy - Twitter" width="32" height="32"></a>
-				<a href="#" title="Gllacy - Instagram"><img src="img/igm.svg" alt="Gllacy - Instagram" title="Gllacy - Instagram" width="32" height="32"></a>
-				<a href="#" title="Gllacy - Facebook"><img src="img/fb.svg" alt="Gllacy - Facebook" title="Gllacy - Facebook" width="32" height="32"></a>
-				<a href="#" title="Gllacy - VKontakte"><img src="img/vk.svg" alt="Gllacy - VKontakte" title="Gllacy - VKontakte" width="32" height="32"></a>
+				<a href="#" title="Gllacy - Twitter"></a>
+				<a href="#" title="Gllacy - Instagram"></a>
+				<a href="#" title="Gllacy - Facebook"></a>
+				<a href="#" title="Gllacy - VKontakte"></a>
 			</div>
 			<nav class="footer-nav">
 				<ul>
 					<li>
-						<a href="#" title="Для поставщиков">Для поставщиков</a> <!-- Иконку сердечка размечу псевдоэлементом -->
+						<a href="#" title="Для поставщиков"><span>Для поставщиков</span></a> <!-- Иконку сердечка размечу псевдоэлементом -->
 					</li>
 					<li>
-						<a href="#" title="Наши документы">Наши документы</a>
+						<a href="#" title="Наши документы"><span>Наши документы</span></a>
 					</li>
 					<li>
-						<a href="#" title="О производстве">О производстве</a>
+						<a href="#" title="О производстве"><span>О производстве</span></a>
 					</li>
 					<li>
-						<a href="#" title="Экологические стандарты">Экологические стандарты</a>
+						<a href="#" title="Экологические стандарты"><span>Экологические стандарты</span></a>
 					</li>
 				</ul>
 			</nav>
 			<div class="htmlacademy-block">
 				<a href="https://htmlacademy.ru/" title="HTMLAcademy"><img src="img/htmlacademy-logo.svg" alt="HTMLAcademy logo" title="HTMLAcademy logo" width="108" height="38">
-				<span>Сделано в <span class="link-text">HTML Academy</span> &copy; 2016</span></a>
+				<p>Сделано в <span class="link-text">HTML Academy</span> &copy; 2016</p></a>
 			</div>
 		</div>
 	</footer>
