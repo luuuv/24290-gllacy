@@ -261,18 +261,18 @@ body {
 	width: 20px;
 	height: 20px;
 	
-    background-image: url("../img/sprite-icons.png");
-    background-repeat: no-repeat;
-    display: block;
-    width: 17px;
-    height: 17px;
-    background-position: -5px -203px;
+	background-image: url("../img/sprite-icons.png");
+	background-repeat: no-repeat;
+	display: block;
+	width: 17px;
+	height: 17px;
+	background-position: -5px -203px;
 }
 
 .user-block .btn-1:hover::before {
-    width: 17px;
-    height: 17px;
-    background-position: -5px -176px;
+	width: 17px;
+	height: 17px;
+	background-position: -5px -176px;
 }
 
 .user-block .btn-2::before {
@@ -284,18 +284,18 @@ body {
 	width: 20px;
 	height: 20px;
 	
-    background-image: url("../img/sprite-icons.png");
-    background-repeat: no-repeat;
-    display: block;
-    width: 21px;
-    height: 19px;
-    background-position: -5px -124px;
+	background-image: url("../img/sprite-icons.png");
+	background-repeat: no-repeat;
+	display: block;
+	width: 21px;
+	height: 19px;
+	background-position: -5px -124px;
 }
 
 .user-block .btn-2:hover::before {
-    width: 21px;
-    height: 19px;
-    background-position: -5px -5px;
+	width: 21px;
+	height: 19px;
+	background-position: -5px -5px;
 }
 
 .user-block .btn-3::before {
@@ -308,16 +308,16 @@ body {
 	height: 20px;
 	
 	background-image: url("../img/sprite-icons.png");
-    background-repeat: no-repeat;
-    width: 21px;
-    height: 20px;
-    background-position: -5px -94px;
+	background-repeat: no-repeat;
+	width: 21px;
+	height: 20px;
+	background-position: -5px -94px;
 }
 
 .user-block .btn-3:hover::before {
-    width: 21px;
-    height: 20px;
-    background-position: -5px -34px;
+	width: 21px;
+	height: 20px;
+	background-position: -5px -34px;
 }
 
 .user-block  .full {
@@ -327,15 +327,15 @@ body {
 }
 
 .user-block  .full::before {
-    width: 21px;
-    height: 20px;
-    background-position: -5px -64px;
+	width: 21px;
+	height: 20px;
+	background-position: -5px -64px;
 }
 
 .user-block .full:hover::before {
-    width: 21px;
-    height: 20px;
-    background-position: -5px -64px;
+	width: 21px;
+	height: 20px;
+	background-position: -5px -64px;
 }
 
 .hours-phone-block {
@@ -942,7 +942,7 @@ input[type="text"]:hover{
 }
 
 .social a:active {
-    box-shadow: inset 0 2px 2px #696969;
+	box-shadow: inset 0 2px 2px #696969;
 }
 
 .footer-nav {
@@ -984,7 +984,7 @@ input[type="text"]:hover{
 	left: -22px;
 	top: 1px;
 	background-image: url("../img/sprite-icons.png");
-    background-position: -5px -153px;
+	background-position: -5px -153px;
 	
 }
 
@@ -1045,7 +1045,7 @@ input[type="text"]:hover{
 }
 
 .breadcrumbs ul li a span {
-    border-bottom: 1px solid rgba(255,255,255,0.2);
+	border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 
 .breadcrumbs ul li a:hover span{
@@ -1115,7 +1115,7 @@ input[type="text"]:hover{
 	height: 5px;
 	background-image: url("../img/sprite-icons.png");
 	background-repeat: no-repeat;
-    background-position: -5px -225px;
+	background-position: -5px -225px;
 	margin-left: 28px;
 }
 
@@ -1193,7 +1193,7 @@ input[type="text"]:hover{
 	width: 20px;
 	height: 20px;
 	background-image: url("../img/sprite-icons.png");
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;
 	background-position: -5px -260px;
 }
 
